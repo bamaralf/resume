@@ -22,7 +22,7 @@ github_username:  bamaralf
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-# linkedin_username: jameswgrant
+linkedin_username: bamaralf
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -49,31 +49,18 @@ github_username:  bamaralf
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
       Hi! I am a SRE/DevOps Engineer who assisted several projects with DevOps culture and automation adoption.
-      
       These are some tasks I worked on previous projects:
-      
       - designing cloud and on-premises infrastructures
-      
       - developing robust CI/CD workflows
-      
       - profiling applications for optimal scalability
-      
       - setting up monitoring tools and alerts
-      
       - managing Kubernetes Container Clusters in multi-cloud providers and on-premises bare-metal
-      
       - developing Terraform modules
-      
       - developing Helm charts
-      
-      - migrating infrastructure between cloud providers or to/from on premises
-      
+      - migrating infrastructure to cloud providers
       - git repositories management
-      
       - databases operations
-      
       - managing required infrastructure for blockchain nodes
-      
       - implementing ETL workflows for machine learning.
 
 content:
@@ -91,10 +78,10 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   A Terraform module for provisioning AWS S3 buckets.
-        description: | # this will include new lines to allow paragraphs
+        quote: >
           A Terraform module for provisioning AWS S3 buckets.
+        # description: | # this will include new lines to allow paragraphs
+        #   A Terraform module for provisioning AWS S3 buckets.
 
       - layout: top-middle
         title: terraform-azurerm-aks
@@ -107,10 +94,10 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   A Terraform module for provisioning AWS S3 buckets.
-        description: | # this will include new lines to allow paragraphs
+        quote: >
           A Terraform module for provisioning AKS clusters (Kubernetes).
+        # description: | # this will include new lines to allow paragraphs
+        #  A Terraform module for provisioning AKS clusters (Kubernetes).
 
       - layout: top-middle
         title: terraform-azurerm-vnetpeering
@@ -123,10 +110,10 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   A Terraform module for provisioning AWS S3 buckets.
-        description: | # this will include new lines to allow paragraphs
+        quote: >
           A Terraform module for provisioning Azure VNET Peering connections.
+        # description: | # this will include new lines to allow paragraphs
+        #   A Terraform module for provisioning Azure VNET Peering connections.
 
       - layout: top-middle
         title: terraform-azurerm-vnet
@@ -139,10 +126,10 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   A Terraform module for provisioning AWS S3 buckets.
-        description: | # this will include new lines to allow paragraphs
+        quote: >
           A Terraform module for provisioning Azure VNETs.
+        # description: | # this will include new lines to allow paragraphs
+        #   A Terraform module for provisioning Azure VNETs.
 
       - layout: top-middle
         title: terraspace_plugin_azurerm
@@ -155,10 +142,10 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   A Terraform module for provisioning AWS S3 buckets.
-        description: | # this will include new lines to allow paragraphs
+        quote: >
           Terraspace is a Terraform framework.
+        # description: | # this will include new lines to allow paragraphs
+        #   Terraspace is a Terraform framework.
 
       - layout: top-middle
         title: axonserver Helm chart
@@ -171,10 +158,10 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   A Terraform module for provisioning AWS S3 buckets.
-        description: | # this will include new lines to allow paragraphs
+        quote: >
           A Helm chart for provisioning Axonserver clusters running in Kubernetes (https://developer.axoniq.io/axon-server/overview).
+        # description: | # this will include new lines to allow paragraphs
+        #   A Helm chart for provisioning Axonserver clusters running in Kubernetes (https://developer.axoniq.io/axon-server/overview).
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -208,7 +195,7 @@ content:
         link: https://aetion.com
         # link_text: boringcompany.com
         sub_title: Senior Site Reliability Engineer 
-        caption: May, 2021 - October, 2022
+        caption: Mar, 2021 - October, 2022
         quote: >
           Maintaining the continuous integration and continuous delivery workflows.
           Maintaining production environments.
@@ -234,10 +221,10 @@ content:
         link: https://codeminer42.com
         # link_text: boringcompany.com
         sub_title: Senior Site Reliability Engineer 
-        caption: February,2018 - May,2021
+        caption: May,2018 - Mar,2021
         quote: >
           Maintaining the continuous integration and continuous delivery workflows.
-          Dedigning and implementing a crypto exchange cloud infrastructure.
+          Designing and implementing a crypto exchange cloud infrastructure.
           Maintaining production environments.
           Setting up monitoring and alerting tools for production environments.
           Setting up auto-scalable infrastructures.
@@ -271,7 +258,7 @@ content:
         link: https://cloudwalk.io
         # link_text: boringcompany.com
         sub_title: Backend Engineer 
-        caption: 2017- 2018
+        caption: Ju, 2017- Jun, 2018
         quote: >
           Developing core platform features.        
           Developing Ruby/Sinatra API to interact with the company's VPNs status information.
@@ -297,12 +284,12 @@ content:
         link: https://www.opentext.com/ 
         # link_text: boringcompany.com
         sub_title: Devops Engineer 
-        caption: 2013 - 2017
+        caption: Jul, 2014 - Jun, 2017
         quote: >
           Implementing application deployment workflows, such as Canary Deployments, Blue/Green Deployments and Rolling Upgrades.
           Applying configuration management with Ansible.
           Implementing Terraform modules.
-          Working with nternal and external teams.
+          Working with internal and external teams.
         predominant stack: | # this will include new lines to allow paragraphs
           - Java
           - Middleware Support (Tomcat, Weblogic, Websphere)
@@ -319,7 +306,7 @@ content:
         link: http://projetolead.com.br/index.php
         # link_text: boringcompany.com
         sub_title: Infrastructure/Network Consultant
-        caption: 2012 - 2013
+        caption: Jan, 2014 - Jul, 2014
         quote: >
           Maintaining the Firewall/Proxy systems.
           Implementing the inventory management system.
@@ -330,29 +317,59 @@ content:
           - Networking
           - Monitoring
 
-
   # - title: Education # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: Universidade Federal do Ceara 
-  #       caption: 2013 - 2018
-  #       sub_title: Computer Engineering
-  #       quote: >
-  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-  #       description: | # this will include new lines to allow paragraphs
-  #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+  #   - layout: list # Type of content section (list/text)
+  #     content:
+  #       - layout: left
+  #         title: Universidade Federal do Ceara 
+  #         caption: 2013 - 2018
+  #         sub_title: Computer Engineering, BSc
+  #       # quote: >
+  #       #   ""
+  #       # description: | # this will include new lines to allow paragraphs
+  #       #   ""
 
-  #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Frequent Stack
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Containers:
+      - Docker
+      - Kubernetes
+      
+      Cloud Providers:
+      - AWS
+      - GCP
+      - Azure
+      
+      Infrastrucuture as a code:
+      - Terraform
+      
+      Configuration management:
+      - Ansible
+      
+      Scripting languages:
+      - Bash
+      - Ruby
+      - Python
 
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
-  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Programming languages from previously supported platforms:
+      - PHP
+      - Ruby
+      - NodeJs
+      - Golang
+      - C
+      - Java
+      - Kotlin
+
+      Relational Database operations:
+      - MySQL
+      - Postgres
+      - MSSQL
+      
+      Monitoring tools:
+      - Prometheus
+      - Grafana
+      - Datadog
 
 #      Look at this cool image  
 #      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
